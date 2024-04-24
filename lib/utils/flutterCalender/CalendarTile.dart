@@ -27,9 +27,9 @@ class CalendarTile extends StatefulWidget {
     this.dateStyles,
     this.dayOfWeek,
     this.dayOfWeekStyle,
-    this.isDayOfWeek: false,
-    this.isSelected: false,
-    this.inMonth: true,
+    this.isDayOfWeek = false,
+    this.isSelected = false,
+    this.inMonth = true,
     this.events,
     this.selectedColor,
     this.todayColor,
@@ -97,7 +97,8 @@ class _CalendarTileState extends State<CalendarTile> {
                           print(event);
                           if (eventCount > 3) return Container();
                           return Container(
-                            margin: EdgeInsets.only(left: 2.0, right: 2.0, top: 1.0),
+                            margin: EdgeInsets.only(
+                                left: 2.0, right: 2.0, top: 1.0),
                             width: 5.0,
                             height: 5.0,
                             decoration: BoxDecoration(

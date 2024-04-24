@@ -1,0 +1,242 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:4:4-38:19
+MERGED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/b8eb732dfb4581c65769a84db5fe0bc6/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/b8eb732dfb4581c65769a84db5fe0bc6/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abualhamd/.gradle/caches/transforms-3/573acd6f4eb20938e76635836681c47b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abualhamd/.gradle/caches/transforms-3/573acd6f4eb20938e76635836681c47b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:shared_preferences_android] /Users/abualhamd/Downloads/beauty_master/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:nb_utils] /Users/abualhamd/Downloads/beauty_master/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:google_maps_flutter_android] /Users/abualhamd/Downloads/beauty_master/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/abualhamd/Downloads/beauty_master/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /Users/abualhamd/Downloads/beauty_master/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/abualhamd/Downloads/beauty_master/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:connectivity_plus] /Users/abualhamd/Downloads/beauty_master/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/748c8fffae43c6f7002c41cb0210c790/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.browser:browser:1.5.0] /Users/abualhamd/.gradle/caches/transforms-3/6149fc5a224f1e4f82a562a55aa0725b/transformed/browser-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/b8eb732dfb4581c65769a84db5fe0bc6/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/abualhamd/.gradle/caches/transforms-3/7f2fc7d22129181c6570e55607c5454f/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/f9cc3b6d5b542cc5a3cd2c8cb2e3f57c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/e82592eae6caa86c4f5262c6218b9366/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/fa1864ba98f8ec6fdc3c3ef760b83d9d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/2337b8c940007e0e2a389b1be63efe89/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/d4dc9c8cc677699672f6c7c0464925c8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/abualhamd/.gradle/caches/transforms-3/145fb4a99d064c8714cfc6e1b194a212/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/e9d331df74c6be242824fd761880c812/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abualhamd/.gradle/caches/transforms-3/573acd6f4eb20938e76635836681c47b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/7a598bbf430a1c72386a8bb04c20ea9b/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/abualhamd/.gradle/caches/transforms-3/072b862cea56ebfe661e519aef513945/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/abualhamd/.gradle/caches/transforms-3/7d36ce8245e75f3d40b12b9e9938e4e5/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abualhamd/.gradle/caches/transforms-3/75ded68ab4b8ee25da1ff874ec623ecd/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/abualhamd/.gradle/caches/transforms-3/e8a319903173d7116d4e4915e39b108a/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/abualhamd/.gradle/caches/transforms-3/09c0122c5d441e40c561f7ec0e32d8f2/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:2:5-51
+		ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/abualhamd/Downloads/beauty_master/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/abualhamd/Downloads/beauty_master/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:nb_utils] /Users/abualhamd/Downloads/beauty_master/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:nb_utils] /Users/abualhamd/Downloads/beauty_master/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/abualhamd/Downloads/beauty_master/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/abualhamd/Downloads/beauty_master/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/abualhamd/Downloads/beauty_master/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/abualhamd/Downloads/beauty_master/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/abualhamd/Downloads/beauty_master/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/abualhamd/Downloads/beauty_master/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/abualhamd/Downloads/beauty_master/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/abualhamd/Downloads/beauty_master/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/abualhamd/Downloads/beauty_master/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/abualhamd/Downloads/beauty_master/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/748c8fffae43c6f7002c41cb0210c790/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/748c8fffae43c6f7002c41cb0210c790/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.5.0] /Users/abualhamd/.gradle/caches/transforms-3/6149fc5a224f1e4f82a562a55aa0725b/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/abualhamd/.gradle/caches/transforms-3/6149fc5a224f1e4f82a562a55aa0725b/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/b8eb732dfb4581c65769a84db5fe0bc6/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/b8eb732dfb4581c65769a84db5fe0bc6/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/abualhamd/.gradle/caches/transforms-3/7f2fc7d22129181c6570e55607c5454f/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/abualhamd/.gradle/caches/transforms-3/7f2fc7d22129181c6570e55607c5454f/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/f9cc3b6d5b542cc5a3cd2c8cb2e3f57c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/f9cc3b6d5b542cc5a3cd2c8cb2e3f57c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/e82592eae6caa86c4f5262c6218b9366/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/e82592eae6caa86c4f5262c6218b9366/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/fa1864ba98f8ec6fdc3c3ef760b83d9d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/fa1864ba98f8ec6fdc3c3ef760b83d9d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/2337b8c940007e0e2a389b1be63efe89/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/2337b8c940007e0e2a389b1be63efe89/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/d4dc9c8cc677699672f6c7c0464925c8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/d4dc9c8cc677699672f6c7c0464925c8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/abualhamd/.gradle/caches/transforms-3/145fb4a99d064c8714cfc6e1b194a212/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/abualhamd/.gradle/caches/transforms-3/145fb4a99d064c8714cfc6e1b194a212/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/e9d331df74c6be242824fd761880c812/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/e9d331df74c6be242824fd761880c812/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abualhamd/.gradle/caches/transforms-3/573acd6f4eb20938e76635836681c47b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abualhamd/.gradle/caches/transforms-3/573acd6f4eb20938e76635836681c47b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/7a598bbf430a1c72386a8bb04c20ea9b/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/abualhamd/.gradle/caches/transforms-3/7a598bbf430a1c72386a8bb04c20ea9b/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/abualhamd/.gradle/caches/transforms-3/072b862cea56ebfe661e519aef513945/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/abualhamd/.gradle/caches/transforms-3/072b862cea56ebfe661e519aef513945/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/abualhamd/.gradle/caches/transforms-3/7d36ce8245e75f3d40b12b9e9938e4e5/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/abualhamd/.gradle/caches/transforms-3/7d36ce8245e75f3d40b12b9e9938e4e5/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abualhamd/.gradle/caches/transforms-3/75ded68ab4b8ee25da1ff874ec623ecd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abualhamd/.gradle/caches/transforms-3/75ded68ab4b8ee25da1ff874ec623ecd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/abualhamd/.gradle/caches/transforms-3/e8a319903173d7116d4e4915e39b108a/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/abualhamd/.gradle/caches/transforms-3/e8a319903173d7116d4e4915e39b108a/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/abualhamd/.gradle/caches/transforms-3/09c0122c5d441e40c561f7ec0e32d8f2/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/abualhamd/.gradle/caches/transforms-3/09c0122c5d441e40c561f7ec0e32d8f2/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [:nb_utils] /Users/abualhamd/Downloads/beauty_master/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:nb_utils] /Users/abualhamd/Downloads/beauty_master/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/abualhamd/Downloads/beauty_master/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:nb_utils] /Users/abualhamd/Downloads/beauty_master/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [:connectivity_plus] /Users/abualhamd/Downloads/beauty_master/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:connectivity_plus] /Users/abualhamd/Downloads/beauty_master/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:nb_utils] /Users/abualhamd/Downloads/beauty_master/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/abualhamd/Downloads/beauty_master/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abualhamd/.gradle/caches/transforms-3/a45684582c7e9c0ed3b942af5967e108/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/abualhamd/.gradle/caches/transforms-3/a267ed3f8984e9dd617bd7e954a840bf/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abualhamd/.gradle/caches/transforms-3/f0d716fc6e1597943358820f94b8a464/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/abualhamd/.gradle/caches/transforms-3/ea04351e2f2564cb976c837fadedd9d1/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+permission#com.prokit.beauty_master.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+uses-permission#com.prokit.beauty_master.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/abualhamd/.gradle/caches/transforms-3/cde444c0286e7d51cfc1f3b1cd97e84d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
