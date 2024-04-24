@@ -1,0 +1,1 @@
+ /Users/abualhamd/Downloads/beauty_master/.dart_tool/flutter_build/a814d422b60948ffaedbfbacaddc4284/native_assets.yaml: 
