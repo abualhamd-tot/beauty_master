@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:beauty_master/core/network/error/failure.dart';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
@@ -40,7 +41,7 @@ class DioConsumer implements ApiConsumer {
   }
 
   @override
-  Future<Either<ServerException, dynamic>> get(
+  Future<Either<ServerFailure, Map<String, dynamic>>> get(
       {required String path,
       Map<String, dynamic>? queryParameters,
       Map<String, dynamic>? headers}) async {
@@ -54,7 +55,7 @@ class DioConsumer implements ApiConsumer {
   }
 
   @override
-  Future<Either<ServerException, dynamic>> post(
+  Future<Either<ServerFailure, Map<String, dynamic>>> post(
       {required String path,
       required Map<String, dynamic> body,
       bool formDataEnabled = false,
@@ -73,7 +74,7 @@ class DioConsumer implements ApiConsumer {
   }
 
   @override
-  Future<Either<ServerException, dynamic>> put({
+  Future<Either<ServerFailure, Map<String, dynamic>>> put({
     required String path,
     required Map<String, dynamic> body,
     Map<String, dynamic>? queryParameters,
@@ -90,7 +91,7 @@ class DioConsumer implements ApiConsumer {
     }
   }
 
-  ServerException _handleDioError(DioException error) {
+  ServerFailure _handleDioError(DioException error) {
     late ServerException exception;
     switch (error.type) {
       case DioExceptionType.connectionTimeout:
@@ -118,6 +119,6 @@ class DioConsumer implements ApiConsumer {
         exception = const NoInternetConnectionException();
     }
 
-    return exception;
+    return ServerFailure(msg: exception.msg ?? "Something went wrong!");
   }
 }
