@@ -26,6 +26,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "bloc",
+      "rootUri": "file:///Users/abualhamd/.pub-cache/hosted/pub.dev/bloc-8.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/abualhamd/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -204,6 +210,12 @@
       "rootUri": "file:///Users/abualhamd/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "flutter_bloc",
+      "rootUri": "file:///Users/abualhamd/.pub-cache/hosted/pub.dev/flutter_bloc-8.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "flutter_mobx",
@@ -794,7 +806,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-05-01T09:09:03.340059Z",
+  "generated": "2024-05-01T16:39:09.026499Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

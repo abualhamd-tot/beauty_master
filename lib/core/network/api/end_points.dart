@@ -1,5 +1,5 @@
 abstract class EndPoints {
-  static const String baseUrl = "baseUrl/";
+  static const String baseUrl = "https://www.gsdfd.com";
   static const String login = "Auth/Login";
   static const String product = "Product";
   static const String searchByText = "$product/search";
