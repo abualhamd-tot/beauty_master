@@ -1,6 +1,6 @@
 //region imports
-import 'package:beauty_master/screens/BMSplashScreen.dart';
-import 'package:beauty_master/store/AppStore.dart';
+import 'package:beauty_master/view/screens/BMSplashScreen.dart';
+import 'package:beauty_master/view/store/AppStore.dart';
 import 'package:beauty_master/utils/AppTheme.dart';
 import 'package:beauty_master/utils/BMConstants.dart';
 import 'package:beauty_master/utils/BMDataGenerator.dart';

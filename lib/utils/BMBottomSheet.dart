@@ -1,4 +1,4 @@
-import 'package:beauty_master/components/BMCommentComponent.dart';
+import 'package:beauty_master/view/components/BMCommentComponent.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 
@@ -6,8 +6,8 @@ import '../main.dart';
 import '../models/BMCommentModel.dart';
 import '../models/BMMasterModel.dart';
 import '../models/BMServiceListModel.dart';
-import '../screens/BMCalenderScreen.dart';
-import '../screens/BMCallScreen.dart';
+import '../view/screens/BMCalenderScreen.dart';
+import '../view/screens/BMCallScreen.dart';
 import 'BMColors.dart';
 import 'BMDataGenerator.dart';
 import 'BMWidgets.dart';

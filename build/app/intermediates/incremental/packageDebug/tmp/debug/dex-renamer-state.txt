@@ -1,4 +1,4 @@
-#Wed Apr 24 12:17:50 EET 2024
+#Wed May 01 10:56:19 EET 2024
 base.0=/Users/abualhamd/Downloads/beauty_master/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/abualhamd/Downloads/beauty_master/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
 base.2=/Users/abualhamd/Downloads/beauty_master/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
