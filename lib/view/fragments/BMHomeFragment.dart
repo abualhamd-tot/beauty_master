@@ -2,18 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nb_utils/nb_utils.dart';
 
-import '../blocs/bloc/products_bloc.dart';
+import '../../core/assets_manager.dart';
+import '../../main.dart';
+import '../../models/BMCommonCardModel.dart';
+import '../../utils/BMColors.dart';
+import '../../utils/BMDataGenerator.dart';
+import '../../utils/BMWidgets.dart';
+import '../blocs/products/products_bloc.dart';
 import '../components/BMCommonCardComponent.dart';
 import '../components/BMHomeFragmentHeadComponent.dart';
 import '../components/BMMyMasterComponent.dart';
 import '../components/BMTopServiceHomeComponent.dart';
-import '../../main.dart';
-import '../../models/BMCommonCardModel.dart';
 import '../screens/BMRecommendedScreen.dart';
 import '../screens/BMTopOffersScreen.dart';
-import '../../utils/BMColors.dart';
-import '../../utils/BMDataGenerator.dart';
-import '../../utils/BMWidgets.dart';
 
 class BMHomeFragment extends StatefulWidget {
   const BMHomeFragment({Key? key}) : super(key: key);
@@ -124,54 +125,63 @@ class _BMHomeFragmentState extends State<BMHomeFragment> {
                   BlocBuilder<ProductsBloc, ProductsState>(
                     builder: (context, state) {
                       return switch (state) {
-                        ProductsLoading() => Center(child: CircularProgressIndicator(),),
+                        ProductsLoading() => Center(
+                            child: CircularProgressIndicator(),
+                          ),
                         ProductsFailure() => Center(child: Text(state.msg)),
                         ProductsSuccess() => Column(
-                        children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              titleText(title: 'Products').expand(),
                               Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
-                                  TextButton(
-                                    onPressed: () {
-                                      // TODO:
-                                    },
-                                    child: Text('See All',
-                                        style: boldTextStyle(
-                                            color: appStore.isDarkModeOn
-                                                ? bmPrimaryColor
-                                                : bmTextColorDarkMode)),
-                                  ),
-                                  Icon(Icons.arrow_forward_ios,
-                                      color: appStore.isDarkModeOn
-                                          ? bmPrimaryColor
-                                          : bmTextColorDarkMode,
-                                      size: 16),
+                                  titleText(title: 'Products').expand(),
+                                  Row(
+                                    children: [
+                                      TextButton(
+                                        onPressed: () {
+                                          // TODO:
+                                        },
+                                        child: Text('See All',
+                                            style: boldTextStyle(
+                                                color: appStore.isDarkModeOn
+                                                    ? bmPrimaryColor
+                                                    : bmTextColorDarkMode)),
+                                      ),
+                                      Icon(Icons.arrow_forward_ios,
+                                          color: appStore.isDarkModeOn
+                                              ? bmPrimaryColor
+                                              : bmTextColorDarkMode,
+                                          size: 16),
+                                    ],
+                                  )
                                 ],
-                              )
+                              ).paddingSymmetric(horizontal: 16),
+                              20.height,
+                              HorizontalList(
+                                padding: EdgeInsets.symmetric(horizontal: 16),
+                                spacing: 16,
+                                itemCount: state
+                                    .products.length, //recommendedList.length,
+                                itemBuilder: (context, index) {
+                                  final product = state.products[index];
+                                  return BMCommonCardComponent(
+                                      element: BMCommonCardModel(
+                                          image: AssetManager.logo,
+                                          title: product.productName,
+                                          subtitle: product.productDescription,
+                                          price: "${product.productPrice} EGP",
+                                          saveTag: false),
+                                      fullScreenComponent: false,
+                                      isFavList: false);
+                                },
+                              ),
+                              40.height,
                             ],
-                          ).paddingSymmetric(horizontal: 16),
-                          20.height,
-                          HorizontalList(
-                            padding: EdgeInsets.symmetric(horizontal: 16),
-                            spacing: 16,
-                            itemCount: recommendedList.length,
-                            itemBuilder: (context, index) {
-                              return BMCommonCardComponent(
-                                  element: recommendedList[index],
-                                  fullScreenComponent: false,
-                                  isFavList: false);
-                            },
                           ),
-                          40.height,
-                        ],
-                      )
-                    ,
                       };
                       // return
-                       },
+                    },
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
