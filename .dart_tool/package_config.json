@@ -803,10 +803,10 @@
       "name": "beauty_master",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-05-01T16:39:09.026499Z",
+  "generated": "2024-05-01T22:31:10.094694Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

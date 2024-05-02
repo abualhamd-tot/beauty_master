@@ -4,15 +4,18 @@ import 'package:nb_utils/nb_utils.dart';
 
 import '../../main.dart';
 import '../../models/BMCommonCardModel.dart';
-import '../screens/BMSingleComponentScreen.dart';
 import '../../utils/BMColors.dart';
+import '../screens/BMSingleComponentScreen.dart';
 
 class BMCommonCardComponent extends StatefulWidget {
   BMCommonCardModel element;
   bool fullScreenComponent;
   bool isFavList;
 
-  BMCommonCardComponent({required this.element, required this.fullScreenComponent, required this.isFavList});
+  BMCommonCardComponent(
+      {required this.element,
+      required this.fullScreenComponent,
+      required this.isFavList});
 
   @override
   State<BMCommonCardComponent> createState() => _BMCommonCardComponentState();
@@ -23,7 +26,8 @@ class _BMCommonCardComponentState extends State<BMCommonCardComponent> {
   Widget build(BuildContext context) {
     return Container(
       width: widget.fullScreenComponent ? context.width() - 32 : 250,
-      decoration: BoxDecoration(color: context.cardColor, borderRadius: radius(32)),
+      decoration:
+          BoxDecoration(color: context.cardColor, borderRadius: radius(32)),
       child: Stack(
         children: [
           Column(
@@ -41,7 +45,8 @@ class _BMCommonCardComponentState extends State<BMCommonCardComponent> {
                       padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
                       child: Row(
                         children: [
-                          Icon(Icons.local_offer_rounded, color: Color(0xff808080), size: 16),
+                          Icon(Icons.local_offer_rounded,
+                              color: Color(0xff808080), size: 16),
                           2.width,
                           Text(
                             'Save up to 20% for next booking!',
@@ -52,26 +57,59 @@ class _BMCommonCardComponentState extends State<BMCommonCardComponent> {
                     )
                   : Offstage(),
               8.height,
-              Text(widget.element.title, style: boldTextStyle(size: 18, color: appStore.isDarkModeOn ? Colors.white : bmSpecialColorDark)).paddingSymmetric(horizontal: 8),
+              Text(widget.element.title,
+                      style: boldTextStyle(
+                          size: 18,
+                          color: appStore.isDarkModeOn
+                              ? Colors.white
+                              : bmSpecialColorDark))
+                  .paddingSymmetric(horizontal: 8),
               4.height,
-              Text(widget.element.subtitle!, style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : bmPrimaryColor, size: 12)).paddingSymmetric(horizontal: 8),
+              Text(widget.element.subtitle!,
+                      style: secondaryTextStyle(
+                          color: appStore.isDarkModeOn
+                              ? bmTextColorDarkMode
+                              : bmPrimaryColor,
+                          size: 12))
+                  .paddingSymmetric(horizontal: 8),
               4.height,
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Row(
                     children: [
-                      Icon(
-                        Icons.star,
-                        color: Colors.amber,
-                      ),
-                      4.width,
-                      Text(widget.element.rating!, style: boldTextStyle()),
-                      2.width,
-                      Text('(${widget.element.comments!})', style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : bmPrimaryColor)),
+                      if (widget.element.rating != null) ...[
+                        Icon(
+                          Icons.star,
+                          color: Colors.amber,
+                        ),
+                        4.width,
+                        Text(widget.element.rating!, style: boldTextStyle()),
+                      ],
+                      if (widget.element.comments != null) ...[
+                        2.width,
+                        Text('(${widget.element.comments!})',
+                            style: secondaryTextStyle(
+                                color: appStore.isDarkModeOn
+                                    ? bmTextColorDarkMode
+                                    : bmPrimaryColor)),
+                      ],
+                      if (widget.element.price != null) ...[
+                        2.width,
+                        Text('(${widget.element.price!})',
+                            style: secondaryTextStyle(
+                                color: appStore.isDarkModeOn
+                                    ? bmTextColorDarkMode
+                                    : bmPrimaryColor)),
+                      ],
                     ],
                   ),
-                  Text(widget.element.distance!, style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : bmPrimaryColor)),
+                  if(widget.element.distance != null)
+                  Text(widget.element.distance!,
+                      style: secondaryTextStyle(
+                          color: appStore.isDarkModeOn
+                              ? bmTextColorDarkMode
+                              : bmPrimaryColor)),
                 ],
               ).paddingSymmetric(horizontal: 8),
               16.height,
@@ -82,7 +120,9 @@ class _BMCommonCardComponentState extends State<BMCommonCardComponent> {
             right: 15,
             child: Icon(
               Icons.favorite,
-              color: widget.element.liked! ? Colors.amber : bmTextColorDarkMode,
+              color: (widget.element.liked ?? false)
+                  ? Colors.amber
+                  : bmTextColorDarkMode,
               size: 24,
             ).onTap(() {
               widget.element.liked = !widget.element.liked.validate();

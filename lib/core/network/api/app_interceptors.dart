@@ -7,14 +7,7 @@ class AppInterceptors extends Interceptor {
     if (kDebugMode) {
       print('REQUEST[${options.method}] => PATH: ${options.path}');
     }
-    if (options.queryParameters.containsKey("api_key")) {
-      options.path =
-          "https://api.openrouteservice.org/v2/directions/driving-car";
-    } else {
-      options.queryParameters.addAll({
-        "api_key": "0adf27ba-0741-406a-a29c-c65a0bdc1827",
-      });
-    }
+    
     super.onRequest(options, handler);
   }
 

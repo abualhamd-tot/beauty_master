@@ -22,8 +22,8 @@ class ProductsDatasourceImpl implements ProductsDatasource {
   @override
   FutureEitherFailureOr<Map<String, dynamic>> SearchByBrand(
       {required String text}) async {
-    final response =
-        await _apiConsumer.get(path: "${EndPoints.searchByBrand}/$text");
+    final response = await _apiConsumer.get(
+        path: "${EndPoints.searchProductsByBrand}/$text");
     return response;
   }
 
@@ -43,8 +43,8 @@ class ProductsDatasourceImpl implements ProductsDatasource {
   @override
   FutureEitherFailureOr<Map<String, dynamic>> searchByCategory(
       {required String text}) async {
-    final response =
-        await _apiConsumer.get(path: "${EndPoints.searchByCategory}/$text");
+    final response = await _apiConsumer.get(
+        path: "${EndPoints.searchProductsByCategory}/$text");
     return response;
   }
 
@@ -52,7 +52,7 @@ class ProductsDatasourceImpl implements ProductsDatasource {
   FutureEitherFailureOr<Map<String, dynamic>> searchByText(
       {required String text}) async {
     final response =
-        await _apiConsumer.get(path: "${EndPoints.searchByText}/$text");
+        await _apiConsumer.get(path: "${EndPoints.searchProductsByText}/$text");
     return response;
   }
 }

@@ -1,4 +1,5 @@
 class BMCommonCardModel {
+  String? price;
   String image;
   String title;
   String? subtitle;
@@ -9,14 +10,16 @@ class BMCommonCardModel {
   bool saveTag;
   bool? liked;
 
-  BMCommonCardModel(
-      {required this.image,
-      required this.title,
-      this.subtitle,
-      this.comments,
-      this.distance,
-      this.likes,
-      this.rating,
-      required this.saveTag,
-      this.liked});
+  BMCommonCardModel({
+    this.price,
+    required this.image,
+    required this.title,
+    this.subtitle,
+    this.comments,
+    this.distance,
+    this.likes,
+    this.rating,
+    required this.saveTag,
+    this.liked,
+  });
 }
